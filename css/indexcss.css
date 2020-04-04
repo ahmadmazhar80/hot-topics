@@ -1,0 +1,161 @@
+body p {
+  font-family: 'Raleway', 'Times New Roman', sans-serif;
+  font-size: 0.75rem;
+  line-height: 1.4;
+}
+p {
+  text-align: justify;
+}
+.container {
+  min-height: 900px;
+}
+.heading { 
+  font-family: 'Playfair Display', 'Times', serif;
+}
+.fa {
+  padding: 2px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+button {
+  background-color: #555; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  width: 90%;
+  margin-top: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  font-size: 14px;
+}
+.head {
+  margin: auto;
+  text-align: center;
+}
+.head-image {
+  background-image: url("../img/s.webp");
+  background-color: #cccccc;
+  height: 200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.head-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: red;
+}
+
+.footer {
+  background-color: #ddd;
+  padding:10px;
+  width:95%;
+  margin: auto;
+  margin-top: 4px;
+  text-align: center;
+  font-size: 12px;
+}
+
+@media only screen and (min-width: 35rem) {
+
+body p {
+  font-family: 'Raleway', 'Times New Roman', sans-serif;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+p {
+  text-align: justify;
+}
+.heading { 
+  font-family: 'Playfair Display', 'Times', serif;
+}
+  button {
+  background-color: #555; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  width: 40%;
+  font-size: 160px;
+  cursor: pointer;
+  font-size: 20px;
+}
+.head-image{
+  height: 400px;
+}
+h1 {
+    font-size: 40px;
+  }
+  h3 {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (min-width: 80rem) {
+ body p {
+  font-family: 'Raleway', 'Times New Roman', sans-serif;
+  font-size: 1.25rem;
+  line-height: 1.6;
+}
+p {
+  text-align: justify;
+}
+  button {
+    background-color: #555; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    width: 40%;
+    font-size: 22px;
+    cursor: pointer;
+    font-size: 40px;
+}
+.head-image{
+  height: 400px;
+}
+  h1 {
+    font-size: 50px;
+  }
+  h3 {
+    font-size: 20px;
+  }
+}

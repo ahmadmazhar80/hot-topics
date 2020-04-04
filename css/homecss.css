@@ -1,0 +1,53 @@
+
+main,
+aside
+ {
+  margin: 30px;
+  height: auto;
+  margin-top: 20px;
+  align-items: center;
+  justify-content: center;
+}
+.imgi {
+  padding: 5px;
+  width: 100%;
+  height: 150px;
+  margin: 1px;
+}
+
+@media only screen and (min-width: 60rem) {
+  .td {
+  display: grid;
+  grid-template-columns: 25% 75%;
+  margin: 0 auto;
+  padding: 1em 1em;
+}
+  main,
+aside
+ {
+  margin: 10px;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+}
+}
+
+@media only screen and (min-width: 80rem) {
+  .td {
+  display: grid;
+  grid-template-columns: 25% 75%;
+  margin: 0 auto;
+  padding: 1em 0;
+}
+  main,
+aside
+ {
+  margin: 30px;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+}

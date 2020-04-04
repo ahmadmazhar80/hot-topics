@@ -1,0 +1,30 @@
+.wrapper {
+  max-width: 1200px;
+  margin: auto;
+}
+h3 {
+  text-align: center;
+}
+
+.flex-item {
+  padding: 5px;
+  width: 95%;
+  margin-top: 50px; 
+}
+
+@media only screen and (min-width: 35rem) {
+  .flex-item {
+  float: left;
+  padding: 2px;
+  width: 45%;
+}
+}
+
+@media only screen and (min-width: 80rem) {
+
+.flex-item {
+  float: left;
+  padding: 5px;
+  width: 30%;
+}
+}
